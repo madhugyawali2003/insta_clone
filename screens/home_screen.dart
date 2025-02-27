@@ -30,7 +30,9 @@ class HomeScreen extends StatelessWidget {
           IconButton(icon: Icon(Icons.favorite_border_outlined),
           onPressed: (){},),
           IconButton(icon: Icon(Icons.message),
-          onPressed: (){},),
+          onPressed: (){
+            print("message icon pressed");
+          },),
           
         ],
       ),
